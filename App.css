@@ -1,0 +1,51 @@
+/* Smooth transitions for color changes */
+* {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Ensuring full height layout */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center content */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.dark-mode {
+  background-color: #1a1a2e;
+  color: #eaeaea;
+}
+
+.dark-mode header {
+  background-color: #16213e;
+  border-bottom: 2px solid #0f3460;
+}
+
+.dark-mode .btn-toggle {
+  background-color: #e94560;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.light-mode header {
+  background-color: #f0f0f0;
+  border-bottom: 2px solid #ddd;
+}
+
+.light-mode .btn-toggle {
+  background-color: #008080;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
